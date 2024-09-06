@@ -4,21 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
+    <style>
+        body {
+            background-color: #007BFF; /* Fondo azul */
+            color: white; /* Color de texto blanco */
+            font-family: Arial, sans-serif; /* Fuente más moderna */
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.1); /* Fondo translúcido para el contenedor */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .book {
+            margin-bottom: 20px;
+        }
+        .book img {
+            display: block;
+            margin: 10px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .book-title {
+            font-weight: bold;
+            text-align: center;
+        }
+        .author {
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
-    <div>Nombre: Nestor Pinzon</div>
-    <div>soy un Joven Entuciasta por la Tecnologia y Ciclista Amateur</div>
-    <div>Habilidades: Analitico,Eficiento,proactivo,Creativo,Empatico</div>
-    <Div>Libros:</Div>
-    <div>1. Harry Potter y la piedra filosofal</div>
-    <div><img src="https://images.cdn1.buscalibre.com/fit-in/360x360/b2/b8/b2b8f402ecba8e723dd61dd6d824b1d3.jpg" alt=""></div>
-    <div>Autor:Joanne Rowling</div>
-    <div>2. El principito</div>
-    <div><img src="https://www.penguinlibros.com/co/2213343/el-principito.jpg" alt=""></div>
-    <div>Autor:Antoine de Saint-Exupéry</div>
-    <div>3.Amor entre libros</div>
-    <Div><img src="https://m.media-amazon.com/images/I/713J+pcNuhL._AC_UF1000,1000_QL80_.jpg" alt=""></Div>
-    <div>Autor:Emily Henry </div>
-    
+    <div class="container">
+        <h1>Perfil de Nestor Pinzon</h1>
+        <div>Nombre: Nestor Pinzon</div>
+        <div>soy un Joven Entusiasta por la Tecnología y Ciclista Amateur</div>
+        <div>Habilidades: Analítico, Eficiente, Proactivo, Creativo, Empático</div>
+        
+        <h2>Libros Favoritos</h2>
+
+        <div class="book">
+            <div class="book-title">1. Harry Potter y la piedra filosofal</div>
+            <img src="https://images.cdn1.buscalibre.com/fit-in/360x360/b2/b8/b2b8f402ecba8e723dd61dd6d824b1d3.jpg" alt="Harry Potter y la piedra filosofal">
+            <div class="author">Autor: Joanne Rowling</div>
+        </div>
+
+        <div class="book">
+            <div class="book-title">2. El principito</div>
+            <img src="https://www.penguinlibros.com/co/2213343/el-principito.jpg" alt="El principito">
+            <div class="author">Autor: Antoine de Saint-Exupéry</div>
+        </div>
+
+        <div class="book">
+            <div class="book-title">3. Amor entre libros</div>
+            <img src="https://m.media-amazon.com/images/I/713J+pcNuhL._AC_UF1000,1000_QL80_.jpg" alt="Amor entre libros">
+            <div class="author">Autor: Emily Henry</div>
+        </div>
+    </div>
 </body>
 </html>
